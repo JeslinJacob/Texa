@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Texa</string>
+    <string name="signup">REGISTER</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_dash_board">Dashboard</string>
+    <string name="title_devices">Devices</string>
+    <string name="title_automate">Automate</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+
+    <string name="min_label">Min</string>
+    <string name="max_label">Max</string>
+
+    <string name="service_not_available">Service not availbale!</string>
+    <string name="invalid_lat_long_used">Invalid location coordinates used!</string>
+    <string name="no_address_found">No address found</string>
+    <string name="address_found">Address found</string>
+    <string name="location_denied">Location Permission denied!</string>
+    <string name="no_geocoder_available">No geo coder available!</string>
+    <string name="no_location_available">No location available!</string>
+    <string name="fetching_address">Fetching address, please wait!</string>
+    <string name="fields_blank">Fields cannot be blank!</string>
+
+
+    <string name="channel_name">Beyond Pink</string>
+    <string name="channel_description">Beyond Pink</string>
+
+    <!--MQTT Start-->
+
+    <string name="connection_connected_to">Connected to</string>
+    <string name="connection_disconnected_from">Disconnected from</string>
+    <string name="connection_unknown_status">Unknown connection status to</string>
+    <string name="connection_connecting_to">Connecting to</string>
+    <string name="connection_disconnecting_from">Disconnecting from</string>
+    <string name="connection_error_connecting_to">An error occurred connecting to</string>
+    <string name="connection_clear">Clear</string>
+    <string name="subscription_new">New Subscription</string>
+
+    <!-- Strings that need formatting  -->
+    <string name="messageRecieved">Received message %1$s &lt;br/&gt; &lt;small&gt;Topic: %2$s &lt;/small&gt; </string>
+    <string name="timestamp">&lt;br/&gt; &lt;small&gt; %1$s &lt;/small&gt;</string>
+    <string name="notification">%1$s has received %2$s on topic %3$s</string>
+    <string name="toast_pub_success">Published message: %1$s to topic: %2$s</string>
+    <string name="toast_sub_success">Subscribed to %1$s</string>
+    <string name="toast_disconnected">Disconnected</string>
+    <string name="toast_pub_failed">Failed to publish message: %1$s to topic: %2$s</string>
+    <string name="toast_sub_failed">Failed to subscribe to %1$s</string>
+    <string name="connection_lost">connection lost</string>
+
+
+    <string name="notifyTitle">MQTT Message Received</string>
+    <string name="notifyTitle_connectionLost">MQTT Client Has Lost Connection</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="register_via_email">Register via Email</string>
+    <string name="reset_pass_hint">Please input your email address. We will send you the link to reset your password.</string>
+    <string name="email">Email</string>
+    <string name="send">SEND</string>
+
+    <string name="dummyText">Lorem ipsum dolor sit amet, in est integre quaeque</string>
+
+    <string name="logged_out">Logged out</string>
+    <string name="click_to_add_group">Click \'+\' to add your first \ngroup and organize your \nswitches</string>
+    <string name="click_to_add_device">Click \'+\' to add your first \nDevice</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="name">Name</string>
+    <string name="phone">Mobile</string>
+    <string name="password">Password</string>
+    <string name="password2">PASSWORD</string>
+    <string name="finish">Finish</string>
+    <string name="password_needs">More than 8 characters with at-least one uppercase and number.</string>
+    <string name="terms">By continuing you agree to our  <font color='#199CDB'>Terms and Conditions</font></string>
+    <string name="congrats">Congrats!</string>
+    <string name="email_conf_msg">We have sent a confirmation email to </string>
+    <string name="please_check_your_email_and_click_on_the_link_to_verify_your_e_mail_address">Please check your email and click on the link to verify your e-mail address</string>
+
+    <string name="profile">Profile</string>
+    <string name="location">Location</string>
+    <string name="save">SAVE</string>
+
+    <string name="new_group">New Group</string>
+
+    <string name="living_room">e.g. Living Room</string>
+    <string name="group_name">Group Name</string>
+    <string name="activity_log">Activity log</string>
+    <string name="shared_users">Shared users</string>
+
+    <string name="settings">Settings</string>
+    <string name="log_out">Logout</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="serial_number">Serial Number</string>
+    <string name="instruction_add_device">Please look at the device package for the serial_number</string>
+    <string name="step_2_of_4">Step 2 of 4</string>
+    <string name="detect_the_device">Detect The Device</string>
+    <string name="step_3_of_4">Step 3 of 4</string>
+    <string name="step_4_of_4">Step 4 of 4</string>
+    <string name="connect_device_to_wi_fi">Connect device to Wi-Fi</string>
+
+    <string name="title_activity_add_device">Add New Device</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="select_wifi">Select Wifi</string>
+    <string name="refresh">Refresh</string>
+    <string name="dummy_ssid">Dummy SSID</string>
+
+    <string name="step_one">Step 1 of 3</string>
+    <string name="step_two">Step Two of 3</string>
+    <string name="step_three">Step 3 of 3</string>
+    <string name="enter_device_info">Enter Device Info</string>
+    <string name="device_name">DEVICE NAME</string>
+    <string name="serial_no">SERIAL NUMBER</string>
+    <string name="look_device_package">Please look at the device package for the serial number.</string>
+    <string name="next">Next</string>
+    <string name="error_dev_enter_name">Enter device name</string>
+    <string name="error_dev_serial">Enter device serial number</string>
+    <string name="detect_device">Detect the device</string>
+    <string name="click_five_times">Click any switch on the device for 5 times to activate the device hot spot.\n\nConnect your phone to the hotspot below.</string>
+    <string name="connect_phone_hotspot">Connect your phone to the hotspot below.</string>
+    <string name="hotspot">HOTSPOT</string>
+    <string name="no_hotspot">No hotspot detected</string>
+    <string name="connect">Connect</string>
+    <string name="add_new_device">Add new device</string>
+    <string name="scan">Scan</string>
+    <string name="ssid">SSID</string>
+    <string name="sec_type">Security Type</string>
+    <string name="setup_complete">Setup Complete</string>
+    <string name="check_device_list">Check your device list for</string>
+    <string name="device_detected">Device detected</string>
+
+    <string-array name="wifi_security_types">
+        <item>WPA/WPA2 PSK</item>
+        <item>WEP</item>
+        <item>802.1x EAP</item>
+        <item>None</item>
+    </string-array>
+
+    <string name="terms_one">By continuing you agree to our </string>
+    <string name="terms_two">Terms and Conditions</string>
+    <string name="connect_to_wifi">Connect device to Wi-Fi</string>
+</resources>

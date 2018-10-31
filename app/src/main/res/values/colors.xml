@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#199CDB</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+
+    <color name="colorAccent">#68737A</color>
+    <color name="colorGray">#4f4f50</color>
+    <color name="black">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorbBackground">#ffffff</color>
+    <color name="colorButton">#103f5c</color>
+    <color name="cs_label_hint_color">#61000000</color>
+    <color name="grey_text">#68737A</color>
+    <color name="light_gray">#E3E3E3</color>
+    <color name="colorPrimaryPix">@color/colorPrimaryDark</color>
+    <color name="colorPrimaryLightPix">@color/colorPrimary</color>
+    <color name="blue_title">#199CDB</color>
+    <color name="backgroundGray">#F7F7F7</color>
+    <color name="texaGray">#68737A</color>
+    <color name="texaGrayLite">#b7c3ca</color>
+</resources>

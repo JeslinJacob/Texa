@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1037392461257",
+    "firebase_url": "https://texa-23f80.firebaseio.com",
+    "project_id": "texa-23f80",
+    "storage_bucket": "texa-23f80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037392461257:android:509cb30090848451",
+        "android_client_info": {
+          "package_name": "com.texaconnect.texa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037392461257-hmn1qf6me9761191a0sm7didi1r4ta34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjMX8TP1yyGw3YcrNYxOOdrR8gw5IIyQs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

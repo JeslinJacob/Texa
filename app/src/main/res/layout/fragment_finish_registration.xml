@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.account.FinishRegistrationFragment">
+
+   <android.support.constraint.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <ImageView
+           android:id="@+id/icon_finish"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="8dp"
+           android:layout_marginTop="8dp"
+           android:layout_marginEnd="8dp"
+           android:layout_marginBottom="8dp"
+           android:src="@drawable/ic_mood_24px"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.498"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.152" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="@dimen/H2"
+           android:layout_marginTop="@dimen/H2"
+           android:layout_marginEnd="@dimen/H2"
+           android:layout_marginBottom="8dp"
+           android:orientation="vertical"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/icon_finish"
+           app:layout_constraintVertical_bias="0.069">
+
+           <TextView
+               android:id="@+id/congratstxt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/congrats"
+               android:textSize="@dimen/common_heading"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/conf_email_txt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/email_conf_msg"
+               android:textSize="@dimen/H5"
+               android:layout_marginTop="@dimen/H2"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/please_check_your_email_and_click_on_the_link_to_verify_your_e_mail_address"
+               android:textSize="@dimen/H5"
+               android:layout_marginTop="@dimen/H2"/>
+
+           <Button
+               android:id="@+id/finishBtn"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/finish"
+               android:textStyle="bold"
+               android:textAllCaps="true"
+               android:layout_marginTop="@dimen/H2"/>
+
+       </LinearLayout>
+
+
+
+   </android.support.constraint.ConstraintLayout>
+
+</layout>
+    <!--Congrats!-->
+    <!--We have sent a confirmation email to zac@gmail.com.-->
+    <!--Please check your email and click on the link to verify your e-mail address.-->
